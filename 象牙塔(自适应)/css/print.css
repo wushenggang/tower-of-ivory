@@ -1,0 +1,65 @@
+body{
+    background-image:url(../images/bg.png) !important;
+}
+.cont{
+    height:400px;
+    width:450px;
+    margin-left:-60px;
+    position:relative !important;
+    float:left;
+    margin-top:40px;
+}
+.cont .big-img{
+    display:block !important;
+    max-hight:10px !important;
+    overflow:hidden !important;
+}
+.cont .title{
+    border:none;
+    position:absolute;
+    left:500px;
+    text-align:left;
+}
+.cont .title .horn{
+    display:none;
+}
+.cont .all-desc{
+    position:absolute;
+    margin-left:400px;
+    width:400px !important;
+    position:absolute;
+    top:100px;
+    right:-430px;
+    overflow:hidden;
+}
+div.left-bar{
+    display:block;
+    background:rgba(205,0,0,0.5) !important;
+    position:absolute !important;
+    right:430px !important;
+    width:10px !important;
+    height:2700px !important;
+}
+div.logo{
+    display:block !important;
+    width:26px !important;
+    height:26px !important;
+    background:rgb(205,0,0) !important;
+    border-radius:50% !important;
+    box-shadow:0 0 0 8px rgba(205,0,0,0.5) !important;
+    position:absolute !important;
+    right:-25px !important;
+    top:54px !important;
+}
+div.logo img{
+    display:block !important;
+    width:22px !important;
+    margin:auto !important;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
